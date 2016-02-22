@@ -6,7 +6,7 @@ research and inspiration for this map is compiled at [this readlist](http://read
 
 an iteration the [GeoJson map of Colombia](http://bl.ocks.org/john-guerra/43c7656821069d00dcbc) from [john-guerra](http://bl.ocks.org/john-guerra)
 
-Geography from the [Correlates of War Project](http://correlatesofwar.org/history)
+geography from the [Correlates of War Project](http://correlatesofwar.org/history)
 
 [shapefiles](http://downloads.weidmann.ws/cshapes/Shapefiles/) transmuted to GeoJson by [http://www.mapshaper.org/](http://www.mapshaper.org/)
 
