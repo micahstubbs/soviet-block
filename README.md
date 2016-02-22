@@ -8,7 +8,7 @@ an iteration the [GeoJson map of Colombia](http://bl.ocks.org/john-guerra/43c765
 
 geography from the [Correlates of War Project](http://correlatesofwar.org/history)
 
-[shapefiles](http://downloads.weidmann.ws/cshapes/Shapefiles/) transmuted to GeoJson by [http://www.mapshaper.org/](http://www.mapshaper.org/)
+[shapefiles](http://downloads.weidmann.ws/cshapes/Shapefiles/) transmuted to [GeoJson](https://github.com/micahstubbs/soviet-block/blob/master/sovietBloc-30pc.json) by [http://www.mapshaper.org/](http://www.mapshaper.org/)
 
 the keypress easter egg is made possible by the handy [d3.keybinding](http://bl.ocks.org/tmcw/4444952) plugin from the prolific [tmcw](http://bl.ocks.org/tmcw)
 
