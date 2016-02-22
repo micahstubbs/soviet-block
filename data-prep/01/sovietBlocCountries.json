@@ -1,0 +1,50 @@
+[
+  {
+    "ISONAME": "Albania",
+    "ISO1NUM": 8,
+    "ISO1AL2": "AL",
+    "ISO1AL3": "ALB"
+  },
+  {
+    "ISONAME": "Bulgaria",
+    "ISO1NUM": 100,
+    "ISO1AL2": "BG",
+    "ISO1AL3": "BGR"
+  },
+  {
+    "ISONAME": "Hungary",
+    "ISO1NUM": 348,
+    "ISO1AL2": "HU",
+    "ISO1AL3": "HUN"
+  },
+  {
+    "ISONAME": "Poland",
+    "ISO1NUM": 616,
+    "ISO1AL2": "PL",
+    "ISO1AL3": "POL"
+  },
+  {
+    "ISONAME": "Romania",
+    "ISO1NUM": 642,
+    "ISO1AL2": "RO",
+    "ISO1AL3": "ROU"
+  },
+  {
+    "ISONAME": "German Democratic Republic",
+    "ISO1NUM": 278,
+    "ISO1AL2": "DD",
+    "ISO1AL3": "DDR"
+  },
+  {
+    "ISONAME": "Czechoslovakia",
+    "ISO1NUM": 200,
+    "ISO1AL2": "CS",
+    "ISO1AL3": "CSK"
+  },
+  {
+    "ISONAME": "Union of Soviet Socialist Republics",
+    "ISO1NUM": 810,
+    "ISO1AL2": "SU",
+    "ISO1AL3": "SUN"
+  }
+]

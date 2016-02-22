@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Josefin+Slab|Arvo|Lato|Vollkorn|Abril+Fatface|Old+Standard+TT|Droid+Sans|Lobster|Inconsolata|Montserrat|Playfair+Display|Karla|Alegreya|Libre+Baskerville|Merriweather|Lora|Archivo+Narrow|Neuton|Signika|Questrial|Fjalla+One|Bitter|Varela+Round);
+
+.background {
+  fill: #eee;
+  pointer-events: all;
+}
+
+.map-layer {
+  fill: #fff;
+  stroke: #aaa;
+}
+
+.effect-layer{
+  pointer-events:none;
+}
+
+text{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+text.big-text{
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.effect-layer text, text.dummy-text{
+  font-size: 12px;
+}
+
+</style>
+<body>
+
+<svg></svg>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="keybinding.js"></script>
+<script>
+
+var width = 960,
+    height = 500,
+    centered;
+
+// bold
+var burgundy = "#900020"; /* https://en.wikipedia.org/wiki/Burgundy_(color) */
+var scarlet  = "#FF2400"; /* https://en.wikipedia.org/wiki/Scarlet_(color)  */
+var gold     = "#FFD700"; /* https://en.wikipedia.org/wiki/Gold_(color)     */    
+
+// photo
+// picked from this photo
+/* http://11244-presscdn-0-93.pagely.netdna-cdn.com/wp-content/uploads/2012/03/Soviet-Union-flag-SC.jpg */
+var photoBrick   = "#77372B";
+var photoScarlet = "#FE5745";
+var photoGold    = "#E4FF72"; 
+
+// betterment
+// FOR THE BETTERMENT poster color palette
+/* http://www.colourlovers.com/palette/1002423/for_the_betterment?c=1 */
+var bettermentMaroon   = "#9E4E47";
+var bettermentScarlet  = "#F56334";
+var bettermentGold     = "#FBC042";
+
+// objective
+// HIGHEST OBJECTIVE poster color palette
+/* http://www.colourlovers.com/palette/1002438/highest_objective?c=1 */
+var objectiveBlue  = "#28356A";
+var objectiveGrey  = "#939EBA";
+var objectiveGreen = "#4F928B";
+
+// winter
+// READY FOR WINTER poster color palette
+/* http://www.colourlovers.com/palette/1002446/ready_for_winter?c=1 */
+var winterIndigo   = "#24263D";
+var winterViolet   = "#5F4C62";
+var winterLavender = "#8E6D74";
+
+
+// set default colors
+var centeredColor  = burgundy;
+var mouseoverColor = gold;
+var scaleMaxColor  = scarlet;
+
+// Define color scale
+var color = d3.scale.linear()
+  .domain([1, 20])
+  .clamp(true)
+  .range(['#fff', scaleMaxColor]);
+
+var projection = d3.geo.mercator()
+  .scale(680)
+  // Center the Map on the centroid of the Soviet Bloc
+  .center([21.49, 50.42])
+  .translate([width / 2, height / 2]);
+
+var path = d3.geo.path()
+  .projection(projection);
+
+// Set svg width & height
+var svg = d3.select('svg')
+  .attr('width', width)
+  .attr('height', height);
+
+// Add background
+svg.append('rect')
+  .attr('class', 'background')
+  .attr('width', width)
+  .attr('height', height)
+  .on('click', clicked);
+
+var g = svg.append('g');
+
+var effectLayer = g.append('g')
+  .classed('effect-layer', true);
+
+var mapLayer = g.append('g')
+  .classed('map-layer', true);
+
+var symbolLayer = g.append('g')
+  .classed('symbol-layer', true);
+
+var dummyText = g.append('text')
+  .classed('dummy-text', true)
+  .attr('x', 10)
+  .attr('y', 30)
+  .style('opacity', 0);
+
+var bigText = g.append('text')
+  .classed('big-text', true)
+  .attr('x', 20)
+  .attr('y', 45);
+
+// Load map data
+d3.json('sovietBloc-30pc.json', function(error, mapData) {
+  var features = mapData.features;
+
+  // Update color scale domain based on data
+  color.domain([0, d3.max(features, nameLength)]);
+
+  // Draw each region as a path
+  mapLayer.selectAll('path')
+      .data(features)
+    .enter().append('path')
+      .attr('d', path)
+      .attr('vector-effect', 'non-scaling-stroke')
+      .style('fill', fillFn)
+      .on('mouseover', mouseover)
+      .on('mouseout', mouseout)
+      .on('click', clicked);
+});
+
+// draw the star on the map
+symbolLayer.append("path")
+  .attr("d", "m 191.6,61.4 -27,0 21.8,16 -8.2,25.6 21.8,-15.8 21.8,15.8 -8.2,-25.6 21.8,-16 -27,0 -8.4,-25.8 -8.4,25.8 z m 8.4,-9.8 4.8,14.8 15.4,0 -12.4,9 4.72,14.7 -12.52,-9.1 -12.52,9.1 4.72,-14.7 -12.4,-9 15.4,0 4.8,-14.8 z")
+    .attr('transform', 'translate(495, 32) scale(0.75)')
+  .style({
+    'fill': mouseoverColor,
+    'pointer-events': 'none'
+  });
+
+// draw the hammer and sickle on the map
+symbolLayer.append("path")
+  .attr("d", "m 165.48767,15.46968 c 30.28036,10.786606 58.30746,27.796128 81.94778,49.566437 22.67525,21.131531 41.91496,47.019043 51.07166,76.929843 6.20619,19.23346 4.92918,40.01732 0.82663,59.54277 -4.09822,18.18931 -12.10129,35.52775 -23.7548,50.11879 13.21688,12.92251 26.30712,25.9743 39.55832,38.86277 -1.76477,6.60297 -4.46931,13.35099 -9.89871,17.80224 -4.53987,3.91868 -10.35211,5.81333 -16.072,7.23779 -12.94106,-13.44513 -25.94774,-26.82268 -38.89608,-40.26105 -16.12936,11.01859 -35.59366,16.82701 -55.03062,17.68546 -24.48131,1.08209 -48.95378,-6.80918 -68.92876,-20.82625 -10.7713,-7.40274 -20.48002,-16.25426 -29.386518,-25.79425 -1.525451,1.50055 -3.190323,2.84704 -4.902237,4.1295 0.424515,3.20129 0.884476,6.39847 1.325882,9.60054 -3.342621,0.19229 -6.679748,1.00963 -9.488357,2.89311 -8.665711,5.49181 -14.683441,14.01709 -20.834214,22.02049 -7.627059,9.9016 -14.482208,20.89213 -25.111389,27.90563 -6.441436,3.97925 -15.972961,2.29736 -19.917785,-4.39115 -4.12587,-6.56221 -1.745835,-15.03198 2.698074,-20.78855 10.86116,-15.96306 30.253235,-22.78556 42.394196,-37.4925 3.157745,-3.95123 5.545669,-8.53093 6.730285,-13.46106 3.100998,0.19817 6.202317,0.39974 9.304383,0.60175 2.627426,-2.6649 5.267654,-5.31627 7.885055,-7.98979 2.918259,-0.0754 5.892334,0.23651 8.773575,-0.32607 3.007553,-2.65266 5.40524,-5.91408 8.12138,-8.85225 2.97509,0.8335 4.66571,3.62412 6.8187,5.61696 13.30737,12.11968 28.52502,22.68173 45.86947,28.06787 22.17939,7.10536 46.8891,4.84806 67.6941,-5.49075 C 182.61364,205.47345 141.08113,162.43051 99.469097,119.46664 90.137432,129.2919 80.842099,139.15485 71.377285,148.85191 59.818081,137.0598 48.146038,125.37897 36.528225,113.64493 58.426541,91.724823 80.569775,70.050811 102.58882,48.252014 c 19.0366,5.182495 38.04879,10.456116 57.10335,15.576751 -13.02089,11.821229 -26.25696,23.402558 -39.32341,35.173066 43.41859,42.566409 86.62239,85.357669 130.11059,127.855849 10.49822,-12.77303 16.40651,-29.03735 17.21028,-45.50384 1.48093,-21.78817 -3.5608,-43.463 -10.74287,-63.90136 C 246.79441,90.479278 227.38447,68.27301 206.2883,49.170913 193.10296,37.451263 179.51396,26.169159 165.48767,15.46968 z m 0,0")
+  .attr('transform', 'translate(570, 110) scale(0.45)')
+  .style({
+    'fill': mouseoverColor,
+    'pointer-events': 'none'
+  });
+
+
+
+d3.select('body').call(d3.keybinding()
+  .on('a', updateColors('bold', 'a'))
+  .on('s', updateColors('betterment', 's'))
+  .on('d', updateColors('photo', 'd'))
+  .on('f', updateColors('objective', 'f'))
+  .on('g', updateColors('winter', 'g'))
+);
+
+// Get region name
+function nameFn(d){
+  return d && d.properties ? d.properties.ISONAME : null;
+}
+
+// Get region name length
+function nameLength(d){
+  var n = nameFn(d);
+  return n ? n.length : 0;
+}
+
+// Get region color
+function fillFn(d){
+  return color(nameLength(d));
+}
+
+// When clicked, zoom in
+function clicked(d) {
+  if(d && d['properties']['ISONAME'] != "Union of Soviet Socialist Republics") {
+  
+    var x, y, k;
+
+    // Compute centroid of the selected path
+    if (d && centered !== d) {
+      var centroid = path.centroid(d);
+      x = centroid[0];
+      y = centroid[1];
+      k = 4;
+      centered = d;
+    } else {
+      x = width / 2;
+      y = height / 2;
+      k = 1;
+      centered = null;
+    }
+
+    // Highlight the clicked region
+    mapLayer.selectAll('path')
+      .style('fill', function(d){return centered && d===centered ? centeredColor : fillFn(d);});
+
+    // Zoom
+    g.transition()
+      .duration(750)
+      .attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')scale(' + k + ')translate(' + -x + ',' + -y + ')');
+  }
+}
+
+function mouseover(d){
+  // Highlight hovered region
+  d3.select(this)
+    .classed("mousedOver", true)
+    .style('fill', mouseoverColor);
+
+  if(d['properties']['ISONAME'] === "Union of Soviet Socialist Republics") {
+    symbolLayer.selectAll('path')
+      .style('fill', scaleMaxColor);
+  }
+
+  // Draw effects
+  textArt(nameFn(d));
+}
+
+function mouseout(d){
+
+  // reset the mousedOver class
+  d3.selectAll('path.mousedOver')
+    .classed("mousedOver", false);
+
+  // Reset region color
+  mapLayer.selectAll('path')
+    .style('fill', function(d){return centered && d===centered ? centeredColor : fillFn(d);});
+
+    if(d['properties']['ISONAME'] === "Union of Soviet Socialist Republics") {
+    symbolLayer.selectAll('path')
+      .style('fill', mouseoverColor);
+  }
+
+  // Remove effect text
+  effectLayer.selectAll('text').transition()
+    .style('opacity', 0)
+    .remove();
+
+  // Clear region name
+  bigText.text('');
+}
+
+function updateColors(palette, key) {
+
+  return function(event) {
+    event.preventDefault(); 
+  
+    switch (palette) {
+
+      case "bold":
+        centeredColor  = burgundy;
+        scaleMaxColor  = scarlet;
+        mouseoverColor = gold;
+
+        console.clear();
+        console.log('keypress', key);
+        console.log(palette, 'palette')
+        console.log('%c█ #900020', 'color: #900020');
+        console.log('%c█ #FF2400', 'color: #FF2400');
+        console.log('%c█ #FFD700', 'color: #FFD700');
+        break
+
+      case "photo":
+        centeredColor  = photoBrick;
+        scaleMaxColor  = photoScarlet;
+        mouseoverColor = photoGold;
+
+        console.clear();
+        console.log('keypress', key);
+        console.log(palette, 'palette')
+        console.log('%c█ #77372B', 'color: #77372B');
+        console.log('%c█ #FE5745', 'color: #FE5745');
+        console.log('%c█ #E4FF72', 'color: #E4FF72');
+        break
+
+      case "betterment":
+        centeredColor  = bettermentMaroon;
+        scaleMaxColor  = bettermentScarlet;
+        mouseoverColor = bettermentGold;
+
+        console.clear();
+        console.log('keypress', key);
+        console.log(palette, 'palette')
+        console.log('%c█ #9E4E47', 'color: #9E4E47');
+        console.log('%c█ #F56334', 'color: #F56334');
+        console.log('%c█ #FBC042', 'color: #FBC042');
+        break  
+
+      case "objective":
+        centeredColor  = objectiveGreen;
+        scaleMaxColor  = objectiveBlue;
+        mouseoverColor = objectiveGrey;
+
+        console.clear();
+        console.log('keypress', key);
+        console.log(palette, 'palette')
+        console.log('%c█ #28356A', 'color: #28356A');
+        console.log('%c█ #939EBA', 'color: #939EBA');
+        console.log('%c█ #4F928B', 'color: #4F928B');
+        break  
+
+      case "winter":
+        centeredColor  = winterIndigo;
+        scaleMaxColor  = winterViolet;
+        mouseoverColor = winterLavender;
+
+        console.clear();
+        console.log('keypress', key);
+        console.log(palette, 'palette')
+        console.log('%c█ #24263D', 'color: #24263D');
+        console.log('%c█ #5F4C62', 'color: #5F4C62');
+        console.log('%c█ #8E6D74', 'color: #8E6D74');
+        break 
+    }
+
+    color.range(['#fff', scaleMaxColor]);
+    
+    // Highlight the clicked region
+    mapLayer.selectAll('path')
+      .transition()
+      .duration(0)        
+        .style('fill', function(d){return centered && d===centered ? centeredColor : fillFn(d);});
+
+    symbolLayer.selectAll('path')
+      .style('fill', mouseoverColor);
+
+    mapLayer.selectAll('path.mousedOver')
+      .transition()
+      .duration(0)
+        .style('fill', mouseoverColor)
+        .each(function(d) {
+          if(d['properties']['ISONAME'] === "Union of Soviet Socialist Republics") {
+            symbolLayer.selectAll('path')
+              .style('fill', scaleMaxColor);
+          }
+        });
+
+  }
+}
+
+// Gimmick
+// Just me playing around.
+// You won't need this for a regular map.
+
+var BASE_FONT = "'Helvetica Neue', Helvetica, Arial, sans-serif";
+
+var FONTS = [
+  "Open Sans",
+  "Josefin Slab",
+  "Arvo",
+  "Lato",
+  "Vollkorn",
+  "Abril Fatface",
+  "Old StandardTT",
+  "Droid+Sans",
+  "Lobster",
+  "Inconsolata",
+  "Montserrat",
+  "Playfair Display",
+  "Karla",
+  "Alegreya",
+  "Libre Baskerville",
+  "Merriweather",
+  "Lora",
+  "Archivo Narrow",
+  "Neuton",
+  "Signika",
+  "Questrial",
+  "Fjalla One",
+  "Bitter",
+  "Varela Round"
+];
+
+function textArt(text){
+  // Use random font
+  var fontIndex = Math.round(Math.random() * FONTS.length);
+  var fontFamily = FONTS[fontIndex] + ', ' + BASE_FONT;
+
+  bigText
+    .style('font-family', fontFamily)
+    .text(text);
+
+  // Use dummy text to compute actual width of the text
+  // getBBox() will return bounding box
+  dummyText
+    .style('font-family', fontFamily)
+    .text(text);
+  var bbox = dummyText.node().getBBox();
+
+  var textWidth = bbox.width;
+  var textHeight = bbox.height;
+  var xGap = 3;
+  var yGap = 1;
+
+  // Generate the positions of the text in the background
+  var xPtr = 0;
+  var yPtr = 0;
+  var positions = [];
+  var rowCount = 0;
+  while(yPtr < height){
+    while(xPtr < width){
+      var point = {
+        text: text,
+        index: positions.length,
+        x: xPtr,
+        y: yPtr
+      };
+      var dx = point.x - width/2 + textWidth/2;
+      var dy = point.y - height/2;
+      point.distance = dx*dx + dy*dy;
+
+      positions.push(point);
+      xPtr += textWidth + xGap;
+    }
+    rowCount++;
+    xPtr = rowCount%2===0 ? 0 : -textWidth/2;
+    xPtr += Math.random() * 10;
+    yPtr += textHeight + yGap;
+  }
+
+  var selection = effectLayer.selectAll('text')
+    .data(positions, function(d){return d.text+'/'+d.index;});
+
+  // Clear old ones
+  selection.exit().transition()
+    .style('opacity', 0)
+    .remove();
+
+  // Create text but set opacity to 0
+  selection.enter().append('text')
+    .text(function(d){return d.text;})
+    .attr('x', function(d){return d.x;})
+    .attr('y', function(d){return d.y;})
+    .style('font-family', fontFamily)
+    .style('fill', '#777')
+    .style('opacity', 0);
+
+  selection
+    .style('font-family', fontFamily)
+    .attr('x', function(d){return d.x;})
+    .attr('y', function(d){return d.y;});
+
+  // Create transtion to increase opacity from 0 to 0.1-0.5
+  // Add delay based on distance from the center of the <svg> and a bit more randomness.
+  selection.transition()
+    .delay(function(d){
+      return d.distance * 0.01 + Math.random()*1000;
+    })
+    .style('opacity', function(d){
+      return 0.1 + Math.random()*0.4;
+    });
+}
+
+</script>

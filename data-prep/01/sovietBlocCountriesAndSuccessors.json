@@ -1,0 +1,158 @@
+[
+  {
+    "ISONAME": "Kazakhstan",
+    "ISO1NUM": 398,
+    "ISO1AL2": "KZ",
+    "ISO1AL3": "KAZ"
+  },
+  {
+    "ISONAME": "Russian Federation",
+    "ISO1NUM": 643,
+    "ISO1AL2": "RU",
+    "ISO1AL3": "RUS"
+  },
+  {
+    "ISONAME": "Albania",
+    "ISO1NUM": 8,
+    "ISO1AL2": "AL",
+    "ISO1AL3": "ALB"
+  },
+  {
+    "ISONAME": "Bulgaria",
+    "ISO1NUM": 100,
+    "ISO1AL2": "BG",
+    "ISO1AL3": "BGR"
+  },
+  {
+    "ISONAME": "Georgia",
+    "ISO1NUM": 268,
+    "ISO1AL2": "GE",
+    "ISO1AL3": "GEO"
+  },
+  {
+    "ISONAME": "Czech Republic",
+    "ISO1NUM": 203,
+    "ISO1AL2": "CZ",
+    "ISO1AL3": "CZE"
+  },
+  {
+    "ISONAME": "Hungary",
+    "ISO1NUM": 348,
+    "ISO1AL2": "HU",
+    "ISO1AL3": "HUN"
+  },
+  {
+    "ISONAME": "Poland",
+    "ISO1NUM": 616,
+    "ISO1AL2": "PL",
+    "ISO1AL3": "POL"
+  },
+  {
+    "ISONAME": "Belarus",
+    "ISO1NUM": 112,
+    "ISO1AL2": "BY",
+    "ISO1AL3": "BLR"
+  },
+  {
+    "ISONAME": "Estonia",
+    "ISO1NUM": 233,
+    "ISO1AL2": "EE",
+    "ISO1AL3": "EST"
+  },
+  {
+    "ISONAME": "Latvia",
+    "ISO1NUM": 428,
+    "ISO1AL2": "LV",
+    "ISO1AL3": "LVA"
+  },
+  {
+    "ISONAME": "Lithuania",
+    "ISO1NUM": 440,
+    "ISO1AL2": "LT",
+    "ISO1AL3": "LTU"
+  },
+  {
+    "ISONAME": "Moldova",
+    "ISO1NUM": 498,
+    "ISO1AL2": "MD",
+    "ISO1AL3": "MDA"
+  },
+  {
+    "ISONAME": "Romania",
+    "ISO1NUM": 642,
+    "ISO1AL2": "RO",
+    "ISO1AL3": "ROU"
+  },
+  {
+    "ISONAME": "Ukraine",
+    "ISO1NUM": 804,
+    "ISO1AL2": "UA",
+    "ISO1AL3": "UKR"
+  },
+  {
+    "ISONAME": "Turkmenistan",
+    "ISO1NUM": 795,
+    "ISO1AL2": "TM",
+    "ISO1AL3": "TKM"
+  },
+  {
+    "ISONAME": "Uzbekistan",
+    "ISO1NUM": 860,
+    "ISO1AL2": "UZ",
+    "ISO1AL3": "UZB"
+  },
+  {
+    "ISONAME": "Armenia",
+    "ISO1NUM": 51,
+    "ISO1AL2": "AM",
+    "ISO1AL3": "ARM"
+  },
+  {
+    "ISONAME": "Azerbaijan",
+    "ISO1NUM": 31,
+    "ISO1AL2": "AZ",
+    "ISO1AL3": "AZE"
+  },
+  {
+    "ISONAME": "Kyrgyzstan",
+    "ISO1NUM": 417,
+    "ISO1AL2": "KG",
+    "ISO1AL3": "KGZ"
+  },
+  {
+    "ISONAME": "Tajikistan",
+    "ISO1NUM": 762,
+    "ISO1AL2": "TJ",
+    "ISO1AL3": "TJK"
+  },
+  {
+    "ISONAME": "Germany",
+    "ISO1NUM": 276,
+    "ISO1AL2": "DE",
+    "ISO1AL3": "DEU"
+  },
+  {
+    "ISONAME": "German Democratic Republic",
+    "ISO1NUM": 278,
+    "ISO1AL2": "DD",
+    "ISO1AL3": "DDR"
+  },
+  {
+    "ISONAME": "Czechoslovakia",
+    "ISO1NUM": 200,
+    "ISO1AL2": "CS",
+    "ISO1AL3": "CSK"
+  },
+  {
+    "ISONAME": "Union of Soviet Socialist Republics",
+    "ISO1NUM": 810,
+    "ISO1AL2": "SU",
+    "ISO1AL3": "SUN"
+  },
+  {
+    "ISONAME": "Union of Soviet Socialist Republics",
+    "ISO1NUM": 810,
+    "ISO1AL2": "SU",
+    "ISO1AL3": "SUN"
+  }
+]

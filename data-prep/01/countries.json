@@ -1,0 +1,1484 @@
+[
+  {
+    "ISONAME": "Guyana",
+    "ISO1NUM": 328,
+    "ISO1AL2": "GY",
+    "ISO1AL3": "GUY"
+  },
+  {
+    "ISONAME": "Suriname",
+    "ISO1NUM": 740,
+    "ISO1AL2": "SR",
+    "ISO1AL3": "SUR"
+  },
+  {
+    "ISONAME": "Trinidad and Tobago",
+    "ISO1NUM": 780,
+    "ISO1AL2": "TT",
+    "ISO1AL3": "TTO"
+  },
+  {
+    "ISONAME": "Venezuela",
+    "ISO1NUM": 862,
+    "ISO1AL2": "VE",
+    "ISO1AL3": "VEN"
+  },
+  {
+    "ISONAME": "Samoa",
+    "ISO1NUM": 882,
+    "ISO1AL2": "WS",
+    "ISO1AL3": "WSM"
+  },
+  {
+    "ISONAME": "Tonga",
+    "ISO1NUM": 776,
+    "ISO1AL2": "TO",
+    "ISO1AL3": "TON"
+  },
+  {
+    "ISONAME": "Argentina",
+    "ISO1NUM": 32,
+    "ISO1AL2": "AR",
+    "ISO1AL3": "ARG"
+  },
+  {
+    "ISONAME": "Bolivia",
+    "ISO1NUM": 68,
+    "ISO1AL2": "BO",
+    "ISO1AL3": "BOL"
+  },
+  {
+    "ISONAME": "Brazil",
+    "ISO1NUM": 76,
+    "ISO1AL2": "BR",
+    "ISO1AL3": "BRA"
+  },
+  {
+    "ISONAME": "Chile",
+    "ISO1NUM": 152,
+    "ISO1AL2": "CL",
+    "ISO1AL3": "CHL"
+  },
+  {
+    "ISONAME": "Ecuador",
+    "ISO1NUM": 218,
+    "ISO1AL2": "EC",
+    "ISO1AL3": "ECU"
+  },
+  {
+    "ISONAME": "Paraguay",
+    "ISO1NUM": 600,
+    "ISO1AL2": "PY",
+    "ISO1AL3": "PRY"
+  },
+  {
+    "ISONAME": "Peru",
+    "ISO1NUM": 604,
+    "ISO1AL2": "PE",
+    "ISO1AL3": "PER"
+  },
+  {
+    "ISONAME": "Uruguay",
+    "ISO1NUM": 858,
+    "ISO1AL2": "UY",
+    "ISO1AL3": "URY"
+  },
+  {
+    "ISONAME": "",
+    "ISO1NUM": 0,
+    "ISO1AL2": "",
+    "ISO1AL3": ""
+  },
+  {
+    "ISONAME": "Guatemala",
+    "ISO1NUM": 320,
+    "ISO1AL2": "GT",
+    "ISO1AL3": "GTM"
+  },
+  {
+    "ISONAME": "Mexico",
+    "ISO1NUM": 484,
+    "ISO1AL2": "MX",
+    "ISO1AL3": "MEX"
+  },
+  {
+    "ISONAME": "Barbados",
+    "ISO1NUM": 52,
+    "ISO1AL2": "BB",
+    "ISO1AL3": "BRB"
+  },
+  {
+    "ISONAME": "Dominica",
+    "ISO1NUM": 212,
+    "ISO1AL2": "DM",
+    "ISO1AL3": "DMA"
+  },
+  {
+    "ISONAME": "Grenada",
+    "ISO1NUM": 308,
+    "ISO1AL2": "GD",
+    "ISO1AL3": "GRD"
+  },
+  {
+    "ISONAME": "Saint Lucia",
+    "ISO1NUM": 662,
+    "ISO1AL2": "LC",
+    "ISO1AL3": "LCA"
+  },
+  {
+    "ISONAME": "Saint Vincent and the Grenadines",
+    "ISO1NUM": 670,
+    "ISO1AL2": "VC",
+    "ISO1AL3": "VCT"
+  },
+  {
+    "ISONAME": "Dominican Republic",
+    "ISO1NUM": 214,
+    "ISO1AL2": "DO",
+    "ISO1AL3": "DOM"
+  },
+  {
+    "ISONAME": "Haiti",
+    "ISO1NUM": 332,
+    "ISO1AL2": "HT",
+    "ISO1AL3": "HTI"
+  },
+  {
+    "ISONAME": "Jamaica",
+    "ISO1NUM": 388,
+    "ISO1AL2": "JM",
+    "ISO1AL3": "JAM"
+  },
+  {
+    "ISONAME": "Bahamas",
+    "ISO1NUM": 44,
+    "ISO1AL2": "BS",
+    "ISO1AL3": "BHS"
+  },
+  {
+    "ISONAME": "Belize",
+    "ISO1NUM": 84,
+    "ISO1AL2": "BZ",
+    "ISO1AL3": "BLZ"
+  },
+  {
+    "ISONAME": "Colombia",
+    "ISO1NUM": 170,
+    "ISO1AL2": "CO",
+    "ISO1AL3": "COL"
+  },
+  {
+    "ISONAME": "Costa Rica",
+    "ISO1NUM": 188,
+    "ISO1AL2": "CR",
+    "ISO1AL3": "CRI"
+  },
+  {
+    "ISONAME": "Cuba",
+    "ISO1NUM": 192,
+    "ISO1AL2": "CU",
+    "ISO1AL3": "CUB"
+  },
+  {
+    "ISONAME": "El Salvador",
+    "ISO1NUM": 222,
+    "ISO1AL2": "SV",
+    "ISO1AL3": "SLV"
+  },
+  {
+    "ISONAME": "Honduras",
+    "ISO1NUM": 340,
+    "ISO1AL2": "HN",
+    "ISO1AL3": "HND"
+  },
+  {
+    "ISONAME": "Nicaragua",
+    "ISO1NUM": 558,
+    "ISO1AL2": "NI",
+    "ISO1AL3": "NIC"
+  },
+  {
+    "ISONAME": "Panama",
+    "ISO1NUM": 591,
+    "ISO1AL2": "PA",
+    "ISO1AL3": "PAN"
+  },
+  {
+    "ISONAME": "Antigua and Barbuda",
+    "ISO1NUM": 28,
+    "ISO1AL2": "AG",
+    "ISO1AL3": "ATG"
+  },
+  {
+    "ISONAME": "Saint Kitts and Nevis",
+    "ISO1NUM": 659,
+    "ISO1AL2": "KN",
+    "ISO1AL3": "KNA"
+  },
+  {
+    "ISONAME": "Iceland",
+    "ISO1NUM": 352,
+    "ISO1AL2": "IS",
+    "ISO1AL3": "ISL"
+  },
+  {
+    "ISONAME": "Ireland",
+    "ISO1NUM": 372,
+    "ISO1AL2": "IE",
+    "ISO1AL3": "IRL"
+  },
+  {
+    "ISONAME": "United Kingdom",
+    "ISO1NUM": 826,
+    "ISO1AL2": "GB",
+    "ISO1AL3": "GBR"
+  },
+  {
+    "ISONAME": "Cape Verde",
+    "ISO1NUM": 132,
+    "ISO1AL2": "CV",
+    "ISO1AL3": "CPV"
+  },
+  {
+    "ISONAME": "Cote d'Ivoire",
+    "ISO1NUM": 384,
+    "ISO1AL2": "CI",
+    "ISO1AL3": "CIV"
+  },
+  {
+    "ISONAME": "Ghana",
+    "ISO1NUM": 288,
+    "ISO1AL2": "GH",
+    "ISO1AL3": "GHA"
+  },
+  {
+    "ISONAME": "Liberia",
+    "ISO1NUM": 430,
+    "ISO1AL2": "LR",
+    "ISO1AL3": "LBR"
+  },
+  {
+    "ISONAME": "",
+    "ISO1NUM": 0,
+    "ISO1AL2": "",
+    "ISO1AL3": ""
+  },
+  {
+    "ISONAME": "Portugal",
+    "ISO1NUM": 620,
+    "ISO1AL2": "PT",
+    "ISO1AL3": "PRT"
+  },
+  {
+    "ISONAME": "Spain",
+    "ISO1NUM": 724,
+    "ISO1AL2": "ES",
+    "ISO1AL3": "ESP"
+  },
+  {
+    "ISONAME": "Burkina Faso",
+    "ISO1NUM": 854,
+    "ISO1AL2": "BF",
+    "ISO1AL3": "BFA"
+  },
+  {
+    "ISONAME": "Guinea",
+    "ISO1NUM": 324,
+    "ISO1AL2": "GN",
+    "ISO1AL3": "GIN"
+  },
+  {
+    "ISONAME": "Guinea-Bissau",
+    "ISO1NUM": 624,
+    "ISO1AL2": "GW",
+    "ISO1AL3": "GNB"
+  },
+  {
+    "ISONAME": "Mali",
+    "ISO1NUM": 466,
+    "ISO1AL2": "ML",
+    "ISO1AL3": "MLI"
+  },
+  {
+    "ISONAME": "Mauritania",
+    "ISO1NUM": 478,
+    "ISO1AL2": "MR",
+    "ISO1AL3": "MRT"
+  },
+  {
+    "ISONAME": "Senegal",
+    "ISO1NUM": 686,
+    "ISO1AL2": "SN",
+    "ISO1AL3": "SEN"
+  },
+  {
+    "ISONAME": "Sierra Leone",
+    "ISO1NUM": 694,
+    "ISO1AL2": "SL",
+    "ISO1AL3": "SLE"
+  },
+  {
+    "ISONAME": "Gambia",
+    "ISO1NUM": 270,
+    "ISO1AL2": "GM",
+    "ISO1AL3": "GMB"
+  },
+  {
+    "ISONAME": "Djibouti",
+    "ISO1NUM": 262,
+    "ISO1AL2": "DJ",
+    "ISO1AL3": "DJI"
+  },
+  {
+    "ISONAME": "Eritrea",
+    "ISO1NUM": 232,
+    "ISO1AL2": "ER",
+    "ISO1AL3": "ERI"
+  },
+  {
+    "ISONAME": "Ethiopia",
+    "ISO1NUM": 231,
+    "ISO1AL2": "ET",
+    "ISO1AL3": "ETH"
+  },
+  {
+    "ISONAME": "Mongolia",
+    "ISO1NUM": 496,
+    "ISO1AL2": "MN",
+    "ISO1AL3": "MNG"
+  },
+  {
+    "ISONAME": "Sudan",
+    "ISO1NUM": 736,
+    "ISO1AL2": "SD",
+    "ISO1AL3": "SDN"
+  },
+  {
+    "ISONAME": "Iraq",
+    "ISO1NUM": 368,
+    "ISO1AL2": "IQ",
+    "ISO1AL3": "IRQ"
+  },
+  {
+    "ISONAME": "",
+    "ISO1NUM": 0,
+    "ISO1AL2": "",
+    "ISO1AL3": ""
+  },
+  {
+    "ISONAME": "Jordan",
+    "ISO1NUM": 400,
+    "ISO1AL2": "JO",
+    "ISO1AL3": "JOR"
+  },
+  {
+    "ISONAME": "Kazakhstan",
+    "ISO1NUM": 398,
+    "ISO1AL2": "KZ",
+    "ISO1AL3": "KAZ"
+  },
+  {
+    "ISONAME": "Norway",
+    "ISO1NUM": 578,
+    "ISO1AL2": "NO",
+    "ISO1AL3": "NOR"
+  },
+  {
+    "ISONAME": "Russian Federation",
+    "ISO1NUM": 643,
+    "ISO1AL2": "RU",
+    "ISO1AL3": "RUS"
+  },
+  {
+    "ISONAME": "Sweden",
+    "ISO1NUM": 752,
+    "ISO1AL2": "SE",
+    "ISO1AL3": "SWE"
+  },
+  {
+    "ISONAME": "Algeria",
+    "ISO1NUM": 12,
+    "ISO1AL2": "DZ",
+    "ISO1AL3": "DZA"
+  },
+  {
+    "ISONAME": "Andorra",
+    "ISO1NUM": 20,
+    "ISO1AL2": "AD",
+    "ISO1AL3": "AND"
+  },
+  {
+    "ISONAME": "Cameroon",
+    "ISO1NUM": 120,
+    "ISO1AL2": "CM",
+    "ISO1AL3": "CMR"
+  },
+  {
+    "ISONAME": "Central African Republic",
+    "ISO1NUM": 140,
+    "ISO1AL2": "CF",
+    "ISO1AL3": "CAF"
+  },
+  {
+    "ISONAME": "",
+    "ISO1NUM": 0,
+    "ISO1AL2": "",
+    "ISO1AL3": ""
+  },
+  {
+    "ISONAME": "Monaco",
+    "ISO1NUM": 492,
+    "ISO1AL2": "MC",
+    "ISO1AL3": "MCO"
+  },
+  {
+    "ISONAME": "Tunisia",
+    "ISO1NUM": 788,
+    "ISO1AL2": "TN",
+    "ISO1AL3": "TUN"
+  },
+  {
+    "ISONAME": "Benin",
+    "ISO1NUM": 204,
+    "ISO1AL2": "BJ",
+    "ISO1AL3": "BEN"
+  },
+  {
+    "ISONAME": "",
+    "ISO1NUM": 0,
+    "ISO1AL2": "",
+    "ISO1AL3": ""
+  },
+  {
+    "ISONAME": "Equatorial Guinea",
+    "ISO1NUM": 226,
+    "ISO1AL2": "GQ",
+    "ISO1AL3": "GNQ"
+  },
+  {
+    "ISONAME": "Kiribati",
+    "ISO1NUM": 296,
+    "ISO1AL2": "KI",
+    "ISO1AL3": "KIR"
+  },
+  {
+    "ISONAME": "Niger",
+    "ISO1NUM": 562,
+    "ISO1AL2": "NE",
+    "ISO1AL3": "NER"
+  },
+  {
+    "ISONAME": "Nigeria",
+    "ISO1NUM": 566,
+    "ISO1AL2": "NG",
+    "ISO1AL3": "NGA"
+  },
+  {
+    "ISONAME": "Sao Tome and Principe",
+    "ISO1NUM": 678,
+    "ISO1AL2": "ST",
+    "ISO1AL3": "STP"
+  },
+  {
+    "ISONAME": "Togo",
+    "ISO1NUM": 768,
+    "ISO1AL2": "TG",
+    "ISO1AL3": "TGO"
+  },
+  {
+    "ISONAME": "Albania",
+    "ISO1NUM": 8,
+    "ISO1AL2": "AL",
+    "ISO1AL3": "ALB"
+  },
+  {
+    "ISONAME": "Bosnia and Herzegovina",
+    "ISO1NUM": 70,
+    "ISO1AL2": "BA",
+    "ISO1AL3": "BIH"
+  },
+  {
+    "ISONAME": "Croatia",
+    "ISO1NUM": 191,
+    "ISO1AL2": "HR",
+    "ISO1AL3": "HRV"
+  },
+  {
+    "ISONAME": "Italy",
+    "ISO1NUM": 380,
+    "ISO1AL2": "IT",
+    "ISO1AL3": "ITA"
+  },
+  {
+    "ISONAME": "Macedonia, the former Yugoslav Republic of",
+    "ISO1NUM": 807,
+    "ISO1AL2": "MK",
+    "ISO1AL3": "MKD"
+  },
+  {
+    "ISONAME": "Malta",
+    "ISO1NUM": 470,
+    "ISO1AL2": "MT",
+    "ISO1AL3": "MLT"
+  },
+  {
+    "ISONAME": "San Marino",
+    "ISO1NUM": 674,
+    "ISO1AL2": "SM",
+    "ISO1AL3": "SMR"
+  },
+  {
+    "ISONAME": "Bulgaria",
+    "ISO1NUM": 100,
+    "ISO1AL2": "BG",
+    "ISO1AL3": "BGR"
+  },
+  {
+    "ISONAME": "Cyprus",
+    "ISO1NUM": 196,
+    "ISO1AL2": "CY",
+    "ISO1AL3": "CYP"
+  },
+  {
+    "ISONAME": "",
+    "ISO1NUM": 0,
+    "ISO1AL2": "",
+    "ISO1AL3": ""
+  },
+  {
+    "ISONAME": "Georgia",
+    "ISO1NUM": 268,
+    "ISO1AL2": "GE",
+    "ISO1AL3": "GEO"
+  },
+  {
+    "ISONAME": "Greece",
+    "ISO1NUM": 300,
+    "ISO1AL2": "GR",
+    "ISO1AL3": "GRC"
+  },
+  {
+    "ISONAME": "Lebanon",
+    "ISO1NUM": 422,
+    "ISO1AL2": "LB",
+    "ISO1AL3": "LBN"
+  },
+  {
+    "ISONAME": "",
+    "ISO1NUM": 0,
+    "ISO1AL2": "",
+    "ISO1AL3": ""
+  },
+  {
+    "ISONAME": "Turkey",
+    "ISO1NUM": 792,
+    "ISO1AL2": "TR",
+    "ISO1AL3": "TUR"
+  },
+  {
+    "ISONAME": "Austria",
+    "ISO1NUM": 40,
+    "ISO1AL2": "AT",
+    "ISO1AL3": "AUT"
+  },
+  {
+    "ISONAME": "Czech Republic",
+    "ISO1NUM": 203,
+    "ISO1AL2": "CZ",
+    "ISO1AL3": "CZE"
+  },
+  {
+    "ISONAME": "Denmark",
+    "ISO1NUM": 208,
+    "ISO1AL2": "DK",
+    "ISO1AL3": "DNK"
+  },
+  {
+    "ISONAME": "Hungary",
+    "ISO1NUM": 348,
+    "ISO1AL2": "HU",
+    "ISO1AL3": "HUN"
+  },
+  {
+    "ISONAME": "Poland",
+    "ISO1NUM": 616,
+    "ISO1AL2": "PL",
+    "ISO1AL3": "POL"
+  },
+  {
+    "ISONAME": "Slovakia",
+    "ISO1NUM": 703,
+    "ISO1AL2": "SK",
+    "ISO1AL3": "SVK"
+  },
+  {
+    "ISONAME": "Slovenia",
+    "ISO1NUM": 705,
+    "ISO1AL2": "SI",
+    "ISO1AL3": "SVN"
+  },
+  {
+    "ISONAME": "Belgium",
+    "ISO1NUM": 56,
+    "ISO1AL2": "BE",
+    "ISO1AL3": "BEL"
+  },
+  {
+    "ISONAME": "France",
+    "ISO1NUM": 250,
+    "ISO1AL2": "FR",
+    "ISO1AL3": "FRA"
+  },
+  {
+    "ISONAME": "Liechtenstein",
+    "ISO1NUM": 438,
+    "ISO1AL2": "LI",
+    "ISO1AL3": "LIE"
+  },
+  {
+    "ISONAME": "Luxembourg",
+    "ISO1NUM": 442,
+    "ISO1AL2": "LU",
+    "ISO1AL3": "LUX"
+  },
+  {
+    "ISONAME": "Netherlands",
+    "ISO1NUM": 528,
+    "ISO1AL2": "NL",
+    "ISO1AL3": "NLD"
+  },
+  {
+    "ISONAME": "Switzerland",
+    "ISO1NUM": 756,
+    "ISO1AL2": "CH",
+    "ISO1AL3": "CHE"
+  },
+  {
+    "ISONAME": "Belarus",
+    "ISO1NUM": 112,
+    "ISO1AL2": "BY",
+    "ISO1AL3": "BLR"
+  },
+  {
+    "ISONAME": "Estonia",
+    "ISO1NUM": 233,
+    "ISO1AL2": "EE",
+    "ISO1AL3": "EST"
+  },
+  {
+    "ISONAME": "Finland",
+    "ISO1NUM": 246,
+    "ISO1AL2": "FI",
+    "ISO1AL3": "FIN"
+  },
+  {
+    "ISONAME": "Latvia",
+    "ISO1NUM": 428,
+    "ISO1AL2": "LV",
+    "ISO1AL3": "LVA"
+  },
+  {
+    "ISONAME": "Lithuania",
+    "ISO1NUM": 440,
+    "ISO1AL2": "LT",
+    "ISO1AL3": "LTU"
+  },
+  {
+    "ISONAME": "Moldova",
+    "ISO1NUM": 498,
+    "ISO1AL2": "MD",
+    "ISO1AL3": "MDA"
+  },
+  {
+    "ISONAME": "Romania",
+    "ISO1NUM": 642,
+    "ISO1AL2": "RO",
+    "ISO1AL3": "ROU"
+  },
+  {
+    "ISONAME": "Ukraine",
+    "ISO1NUM": 804,
+    "ISO1AL2": "UA",
+    "ISO1AL3": "UKR"
+  },
+  {
+    "ISONAME": "Maldives",
+    "ISO1NUM": 462,
+    "ISO1AL2": "MV",
+    "ISO1AL3": "MDV"
+  },
+  {
+    "ISONAME": "Oman",
+    "ISO1NUM": 512,
+    "ISO1AL2": "OM",
+    "ISO1AL3": "OMN"
+  },
+  {
+    "ISONAME": "Somalia",
+    "ISO1NUM": 706,
+    "ISO1AL2": "SO",
+    "ISO1AL3": "SOM"
+  },
+  {
+    "ISONAME": "Sri Lanka",
+    "ISO1NUM": 144,
+    "ISO1AL2": "LK",
+    "ISO1AL3": "LKA"
+  },
+  {
+    "ISONAME": "Turkmenistan",
+    "ISO1NUM": 795,
+    "ISO1AL2": "TM",
+    "ISO1AL3": "TKM"
+  },
+  {
+    "ISONAME": "Uzbekistan",
+    "ISO1NUM": 860,
+    "ISO1AL2": "UZ",
+    "ISO1AL3": "UZB"
+  },
+  {
+    "ISONAME": "Yemen",
+    "ISO1NUM": 887,
+    "ISO1AL2": "YE",
+    "ISO1AL3": "YEM"
+  },
+  {
+    "ISONAME": "Armenia",
+    "ISO1NUM": 51,
+    "ISO1AL2": "AM",
+    "ISO1AL3": "ARM"
+  },
+  {
+    "ISONAME": "Azerbaijan",
+    "ISO1NUM": 31,
+    "ISO1AL2": "AZ",
+    "ISO1AL3": "AZE"
+  },
+  {
+    "ISONAME": "Bahrain",
+    "ISO1NUM": 48,
+    "ISO1AL2": "BH",
+    "ISO1AL3": "BHR"
+  },
+  {
+    "ISONAME": "Iran, Islamic Republic of",
+    "ISO1NUM": 364,
+    "ISO1AL2": "IR",
+    "ISO1AL3": "IRN"
+  },
+  {
+    "ISONAME": "Kuwait",
+    "ISO1NUM": 414,
+    "ISO1AL2": "KW",
+    "ISO1AL3": "KWT"
+  },
+  {
+    "ISONAME": "Qatar",
+    "ISO1NUM": 634,
+    "ISO1AL2": "QA",
+    "ISO1AL3": "QAT"
+  },
+  {
+    "ISONAME": "Saudi Arabia",
+    "ISO1NUM": 682,
+    "ISO1AL2": "SA",
+    "ISO1AL3": "SAU"
+  },
+  {
+    "ISONAME": "United Arab Emirates",
+    "ISO1NUM": 784,
+    "ISO1AL2": "AE",
+    "ISO1AL3": "ARE"
+  },
+  {
+    "ISONAME": "Afghanistan",
+    "ISO1NUM": 4,
+    "ISO1AL2": "AF",
+    "ISO1AL3": "AFG"
+  },
+  {
+    "ISONAME": "Kyrgyzstan",
+    "ISO1NUM": 417,
+    "ISO1AL2": "KG",
+    "ISO1AL3": "KGZ"
+  },
+  {
+    "ISONAME": "Nepal",
+    "ISO1NUM": 524,
+    "ISO1AL2": "NP",
+    "ISO1AL3": "NPL"
+  },
+  {
+    "ISONAME": "Pakistan",
+    "ISO1NUM": 586,
+    "ISO1AL2": "PK",
+    "ISO1AL3": "PAK"
+  },
+  {
+    "ISONAME": "Tajikistan",
+    "ISO1NUM": 762,
+    "ISO1AL2": "TJ",
+    "ISO1AL3": "TJK"
+  },
+  {
+    "ISONAME": "Bangladesh",
+    "ISO1NUM": 50,
+    "ISO1AL2": "BD",
+    "ISO1AL3": "BGD"
+  },
+  {
+    "ISONAME": "Bhutan",
+    "ISO1NUM": 64,
+    "ISO1AL2": "BT",
+    "ISO1AL3": "BTN"
+  },
+  {
+    "ISONAME": "Brunei Darussalam",
+    "ISO1NUM": 96,
+    "ISO1AL2": "BN",
+    "ISO1AL3": "BRN"
+  },
+  {
+    "ISONAME": "",
+    "ISO1NUM": 0,
+    "ISO1AL2": "",
+    "ISO1AL3": ""
+  },
+  {
+    "ISONAME": "Japan",
+    "ISO1NUM": 392,
+    "ISO1AL2": "JP",
+    "ISO1AL3": "JPN"
+  },
+  {
+    "ISONAME": "Korea, Democratic People's Republic of",
+    "ISO1NUM": 408,
+    "ISO1AL2": "KP",
+    "ISO1AL3": "PRK"
+  },
+  {
+    "ISONAME": "Palau",
+    "ISO1NUM": 585,
+    "ISO1AL2": "PW",
+    "ISO1AL3": "PLW"
+  },
+  {
+    "ISONAME": "Philippines",
+    "ISO1NUM": 608,
+    "ISO1AL2": "PH",
+    "ISO1AL3": "PHL"
+  },
+  {
+    "ISONAME": "Korea, Republic of",
+    "ISO1NUM": 410,
+    "ISO1AL2": "KR",
+    "ISO1AL3": "KOR"
+  },
+  {
+    "ISONAME": "Cambodia",
+    "ISO1NUM": 116,
+    "ISO1AL2": "KH",
+    "ISO1AL3": "KHM"
+  },
+  {
+    "ISONAME": "Lao People's Democratic Republic",
+    "ISO1NUM": 418,
+    "ISO1AL2": "LA",
+    "ISO1AL3": "LAO"
+  },
+  {
+    "ISONAME": "Myanmar",
+    "ISO1NUM": 104,
+    "ISO1AL2": "MM",
+    "ISO1AL3": "MMR"
+  },
+  {
+    "ISONAME": "Thailand",
+    "ISO1NUM": 764,
+    "ISO1AL2": "TH",
+    "ISO1AL3": "THA"
+  },
+  {
+    "ISONAME": "Viet Nam",
+    "ISO1NUM": 704,
+    "ISO1AL2": "VN",
+    "ISO1AL3": "VNM"
+  },
+  {
+    "ISONAME": "Marshall Islands",
+    "ISO1NUM": 584,
+    "ISO1AL2": "MH",
+    "ISO1AL3": "MHL"
+  },
+  {
+    "ISONAME": "Micronesia, Federated States of",
+    "ISO1NUM": 583,
+    "ISO1AL2": "FM",
+    "ISO1AL3": "FSM"
+  },
+  {
+    "ISONAME": "Botswana",
+    "ISO1NUM": 72,
+    "ISO1AL2": "BW",
+    "ISO1AL3": "BWA"
+  },
+  {
+    "ISONAME": "Burundi",
+    "ISO1NUM": 108,
+    "ISO1AL2": "BI",
+    "ISO1AL3": "BDI"
+  },
+  {
+    "ISONAME": "Rwanda",
+    "ISO1NUM": 646,
+    "ISO1AL2": "RW",
+    "ISO1AL3": "RWA"
+  },
+  {
+    "ISONAME": "Zambia",
+    "ISO1NUM": 894,
+    "ISO1AL2": "ZM",
+    "ISO1AL3": "ZMB"
+  },
+  {
+    "ISONAME": "Zimbabwe",
+    "ISO1NUM": 716,
+    "ISO1AL2": "ZW",
+    "ISO1AL3": "ZWE"
+  },
+  {
+    "ISONAME": "Comoros",
+    "ISO1NUM": 174,
+    "ISO1AL2": "KM",
+    "ISO1AL3": "COM"
+  },
+  {
+    "ISONAME": "Lesotho",
+    "ISO1NUM": 426,
+    "ISO1AL2": "LS",
+    "ISO1AL3": "LSO"
+  },
+  {
+    "ISONAME": "Malawi",
+    "ISO1NUM": 454,
+    "ISO1AL2": "MW",
+    "ISO1AL3": "MWI"
+  },
+  {
+    "ISONAME": "Mozambique",
+    "ISO1NUM": 508,
+    "ISO1AL2": "MZ",
+    "ISO1AL3": "MOZ"
+  },
+  {
+    "ISONAME": "South Africa",
+    "ISO1NUM": 710,
+    "ISO1AL2": "ZA",
+    "ISO1AL3": "ZAF"
+  },
+  {
+    "ISONAME": "Swaziland",
+    "ISO1NUM": 748,
+    "ISO1AL2": "SZ",
+    "ISO1AL3": "SWZ"
+  },
+  {
+    "ISONAME": "Angola",
+    "ISO1NUM": 24,
+    "ISO1AL2": "AO",
+    "ISO1AL3": "AGO"
+  },
+  {
+    "ISONAME": "Congo",
+    "ISO1NUM": 178,
+    "ISO1AL2": "CG",
+    "ISO1AL3": "COG"
+  },
+  {
+    "ISONAME": "Congo, Democratic Republic of the",
+    "ISO1NUM": 180,
+    "ISO1AL2": "CD",
+    "ISO1AL3": "COD"
+  },
+  {
+    "ISONAME": "Fiji",
+    "ISO1NUM": 242,
+    "ISO1AL2": "FJ",
+    "ISO1AL3": "FJI"
+  },
+  {
+    "ISONAME": "Gabon",
+    "ISO1NUM": 266,
+    "ISO1AL2": "GA",
+    "ISO1AL3": "GAB"
+  },
+  {
+    "ISONAME": "Namibia",
+    "ISO1NUM": 516,
+    "ISO1AL2": "NA",
+    "ISO1AL3": "NAM"
+  },
+  {
+    "ISONAME": "New Zealand",
+    "ISO1NUM": 554,
+    "ISO1AL2": "NZ",
+    "ISO1AL3": "NZL"
+  },
+  {
+    "ISONAME": "Madagascar",
+    "ISO1NUM": 450,
+    "ISO1AL2": "MG",
+    "ISO1AL3": "MDG"
+  },
+  {
+    "ISONAME": "Mauritius",
+    "ISO1NUM": 480,
+    "ISO1AL2": "MU",
+    "ISO1AL3": "MUS"
+  },
+  {
+    "ISONAME": "Seychelles",
+    "ISO1NUM": 690,
+    "ISO1AL2": "SC",
+    "ISO1AL3": "SYC"
+  },
+  {
+    "ISONAME": "",
+    "ISO1NUM": 0,
+    "ISO1AL2": "",
+    "ISO1AL3": ""
+  },
+  {
+    "ISONAME": "Timor-Leste",
+    "ISO1NUM": 626,
+    "ISO1AL2": "TL",
+    "ISO1AL3": "TLS"
+  },
+  {
+    "ISONAME": "Australia",
+    "ISO1NUM": 36,
+    "ISO1AL2": "AU",
+    "ISO1AL3": "AUS"
+  },
+  {
+    "ISONAME": "Nauru",
+    "ISO1NUM": 520,
+    "ISO1AL2": "NR",
+    "ISO1AL3": "NRU"
+  },
+  {
+    "ISONAME": "Papua New Guinea",
+    "ISO1NUM": 598,
+    "ISO1AL2": "PG",
+    "ISO1AL3": "PNG"
+  },
+  {
+    "ISONAME": "Solomon Islands",
+    "ISO1NUM": 90,
+    "ISO1AL2": "SB",
+    "ISO1AL3": "SLB"
+  },
+  {
+    "ISONAME": "Tuvalu",
+    "ISO1NUM": 798,
+    "ISO1AL2": "TV",
+    "ISO1AL3": "TUV"
+  },
+  {
+    "ISONAME": "Vanuatu",
+    "ISO1NUM": 548,
+    "ISO1AL2": "VU",
+    "ISO1AL3": "VUT"
+  },
+  {
+    "ISONAME": "Canada",
+    "ISO1NUM": 124,
+    "ISO1AL2": "CA",
+    "ISO1AL3": "CAN"
+  },
+  {
+    "ISONAME": "Germany",
+    "ISO1NUM": 276,
+    "ISO1AL2": "DE",
+    "ISO1AL3": "DEU"
+  },
+  {
+    "ISONAME": "Germany, Federal Republic of",
+    "ISO1NUM": 280,
+    "ISO1AL2": "DE",
+    "ISO1AL3": "DEU"
+  },
+  {
+    "ISONAME": "German Democratic Republic",
+    "ISO1NUM": 278,
+    "ISO1AL2": "DD",
+    "ISO1AL3": "DDR"
+  },
+  {
+    "ISONAME": "Czechoslovakia",
+    "ISO1NUM": 200,
+    "ISO1AL2": "CS",
+    "ISO1AL3": "CSK"
+  },
+  {
+    "ISONAME": "Yugoslavia, Socialist Federal Republic of",
+    "ISO1NUM": 890,
+    "ISO1AL2": "YU",
+    "ISO1AL3": "YUG"
+  },
+  {
+    "ISONAME": "Union of Soviet Socialist Republics",
+    "ISO1NUM": 810,
+    "ISO1AL2": "SU",
+    "ISO1AL3": "SUN"
+  },
+  {
+    "ISONAME": "",
+    "ISO1NUM": 0,
+    "ISO1AL2": "",
+    "ISO1AL3": ""
+  },
+  {
+    "ISONAME": "Ethiopia",
+    "ISO1NUM": 230,
+    "ISO1AL2": "ET",
+    "ISO1AL3": "ETH"
+  },
+  {
+    "ISONAME": "South Africa",
+    "ISO1NUM": 710,
+    "ISO1AL2": "ZA",
+    "ISO1AL3": "ZAF"
+  },
+  {
+    "ISONAME": "",
+    "ISO1NUM": 0,
+    "ISO1AL2": "",
+    "ISO1AL3": ""
+  },
+  {
+    "ISONAME": "",
+    "ISO1NUM": 0,
+    "ISO1AL2": "",
+    "ISO1AL3": ""
+  },
+  {
+    "ISONAME": "",
+    "ISO1NUM": 0,
+    "ISO1AL2": "",
+    "ISO1AL3": ""
+  },
+  {
+    "ISONAME": "Yemen",
+    "ISO1NUM": 886,
+    "ISO1AL2": "YE",
+    "ISO1AL3": "YEM"
+  },
+  {
+    "ISONAME": "Democratic Yemen",
+    "ISO1NUM": 720,
+    "ISO1AL2": "YD",
+    "ISO1AL3": "YMD"
+  },
+  {
+    "ISONAME": "Taiwan, Province of China",
+    "ISO1NUM": 158,
+    "ISO1AL2": "TW",
+    "ISO1AL3": "TWN"
+  },
+  {
+    "ISONAME": "China",
+    "ISO1NUM": 156,
+    "ISO1AL2": "CN",
+    "ISO1AL3": "CHN"
+  },
+  {
+    "ISONAME": "",
+    "ISO1NUM": 0,
+    "ISO1AL2": "",
+    "ISO1AL3": ""
+  },
+  {
+    "ISONAME": "Republic of Viet Nam",
+    "ISO1NUM": 714,
+    "ISO1AL2": "VN",
+    "ISO1AL3": "VNM"
+  },
+  {
+    "ISONAME": "Democratic Republic of Viet-Nam",
+    "ISO1NUM": 704,
+    "ISO1AL2": "VD",
+    "ISO1AL3": "VDR"
+  },
+  {
+    "ISONAME": "",
+    "ISO1NUM": 0,
+    "ISO1AL2": "",
+    "ISO1AL3": ""
+  },
+  {
+    "ISONAME": "",
+    "ISO1NUM": 0,
+    "ISO1AL2": "",
+    "ISO1AL3": ""
+  },
+  {
+    "ISONAME": "Malaysia",
+    "ISO1NUM": 458,
+    "ISO1AL2": "MY",
+    "ISO1AL3": "MYS"
+  },
+  {
+    "ISONAME": "Singapore",
+    "ISO1NUM": 702,
+    "ISO1AL2": "SG",
+    "ISO1AL3": "SGP"
+  },
+  {
+    "ISONAME": "Indonesia",
+    "ISO1NUM": 360,
+    "ISO1AL2": "ID",
+    "ISO1AL3": "IDN"
+  },
+  {
+    "ISONAME": "Indonesia",
+    "ISO1NUM": 360,
+    "ISO1AL2": "ID",
+    "ISO1AL3": "IDN"
+  },
+  {
+    "ISONAME": "Indonesia",
+    "ISO1NUM": 360,
+    "ISO1AL2": "ID",
+    "ISO1AL3": "IDN"
+  },
+  {
+    "ISONAME": "",
+    "ISO1NUM": 0,
+    "ISO1AL2": "",
+    "ISO1AL3": ""
+  },
+  {
+    "ISONAME": "",
+    "ISO1NUM": 0,
+    "ISO1AL2": "",
+    "ISO1AL3": ""
+  },
+  {
+    "ISONAME": "",
+    "ISO1NUM": 0,
+    "ISO1AL2": "",
+    "ISO1AL3": ""
+  },
+  {
+    "ISONAME": "Libyan Arab Jamahiriya",
+    "ISO1NUM": 434,
+    "ISO1AL2": "LY",
+    "ISO1AL3": "LBY"
+  },
+  {
+    "ISONAME": "Chad",
+    "ISO1NUM": 148,
+    "ISO1AL2": "TD",
+    "ISO1AL3": "TCD"
+  },
+  {
+    "ISONAME": "Morocco",
+    "ISO1NUM": 504,
+    "ISO1AL2": "MA",
+    "ISO1AL3": "MAR"
+  },
+  {
+    "ISONAME": "Morocco",
+    "ISO1NUM": 504,
+    "ISO1AL2": "MA",
+    "ISO1AL3": "MAR"
+  },
+  {
+    "ISONAME": "Mauritania",
+    "ISO1NUM": 478,
+    "ISO1AL2": "MR",
+    "ISO1AL3": "MRT"
+  },
+  {
+    "ISONAME": "Israel",
+    "ISO1NUM": 376,
+    "ISO1AL2": "IL",
+    "ISO1AL3": "ISR"
+  },
+  {
+    "ISONAME": "Israel",
+    "ISO1NUM": 376,
+    "ISO1AL2": "IL",
+    "ISO1AL3": "ISR"
+  },
+  {
+    "ISONAME": "Syrian Arab Republic",
+    "ISO1NUM": 760,
+    "ISO1AL2": "SY",
+    "ISO1AL3": "SYR"
+  },
+  {
+    "ISONAME": "Egypt",
+    "ISO1NUM": 818,
+    "ISO1AL2": "EG",
+    "ISO1AL3": "EGY"
+  },
+  {
+    "ISONAME": "Egypt",
+    "ISO1NUM": 818,
+    "ISO1AL2": "EG",
+    "ISO1AL3": "EGY"
+  },
+  {
+    "ISONAME": "India",
+    "ISO1NUM": 356,
+    "ISO1AL2": "IN",
+    "ISO1AL3": "IND"
+  },
+  {
+    "ISONAME": "",
+    "ISO1NUM": 0,
+    "ISO1AL2": "",
+    "ISO1AL3": ""
+  },
+  {
+    "ISONAME": "",
+    "ISO1NUM": 0,
+    "ISO1AL2": "",
+    "ISO1AL3": ""
+  },
+  {
+    "ISONAME": "Yugoslavia, Socialist Federal Republic of",
+    "ISO1NUM": 890,
+    "ISO1AL2": "YU",
+    "ISO1AL3": "YUG"
+  },
+  {
+    "ISONAME": "Serbia and Montenegro",
+    "ISO1NUM": 891,
+    "ISO1AL2": "CS",
+    "ISO1AL3": "SCG"
+  },
+  {
+    "ISONAME": "Union of Soviet Socialist Republics",
+    "ISO1NUM": 810,
+    "ISO1AL2": "SU",
+    "ISO1AL3": "SUN"
+  },
+  {
+    "ISONAME": "Yugoslavia, Socialist Federal Republic of",
+    "ISO1NUM": 890,
+    "ISO1AL2": "YU",
+    "ISO1AL3": "YUG"
+  },
+  {
+    "ISONAME": "Serbia",
+    "ISO1NUM": 688,
+    "ISO1AL2": "RS",
+    "ISO1AL3": "SRB"
+  },
+  {
+    "ISONAME": "Montenegro",
+    "ISO1NUM": 499,
+    "ISO1AL2": "ME",
+    "ISO1AL3": "MNE"
+  },
+  {
+    "ISONAME": "",
+    "ISO1NUM": null,
+    "ISO1AL2": "",
+    "ISO1AL3": ""
+  },
+  {
+    "ISONAME": "Serbia",
+    "ISO1NUM": 688,
+    "ISO1AL2": "RS",
+    "ISO1AL3": "SRB"
+  },
+  {
+    "ISONAME": "United States",
+    "ISO1NUM": 840,
+    "ISO1AL2": "US",
+    "ISO1AL3": "USA"
+  },
+  {
+    "ISONAME": "Uganda",
+    "ISO1NUM": 800,
+    "ISO1AL2": "UG",
+    "ISO1AL3": "UGA"
+  },
+  {
+    "ISONAME": "Tanzania, United Republic of",
+    "ISO1NUM": 834,
+    "ISO1AL2": "TZ",
+    "ISO1AL3": "TZA"
+  },
+  {
+    "ISONAME": "Kenya",
+    "ISO1NUM": 404,
+    "ISO1AL2": "KE",
+    "ISO1AL3": "KEN"
+  },
+  {
+    "ISONAME": "",
+    "ISO1NUM": 0,
+    "ISO1AL2": "",
+    "ISO1AL3": ""
+  },
+  {
+    "ISONAME": "Saudi Arabia",
+    "ISO1NUM": 682,
+    "ISO1AL2": "SA",
+    "ISO1AL3": "SAU"
+  },
+  {
+    "ISONAME": "Yemen",
+    "ISO1NUM": 887,
+    "ISO1AL2": "YE",
+    "ISO1AL3": "YEM"
+  },
+  {
+    "ISONAME": "",
+    "ISO1NUM": 0,
+    "ISO1AL2": "",
+    "ISO1AL3": ""
+  },
+  {
+    "ISONAME": "Tanzania, United Republic of",
+    "ISO1NUM": 834,
+    "ISO1AL2": "TZ",
+    "ISO1AL3": "TZA"
+  },
+  {
+    "ISONAME": "Morocco",
+    "ISO1NUM": 504,
+    "ISO1AL2": "MA",
+    "ISO1AL3": "MAR"
+  },
+  {
+    "ISONAME": "Mauritania",
+    "ISO1NUM": 478,
+    "ISO1AL2": "MR",
+    "ISO1AL3": "MRT"
+  },
+  {
+    "ISONAME": "Sudan",
+    "ISO1NUM": 729,
+    "ISO1AL2": "SD",
+    "ISO1AL3": "SDN"
+  },
+  {
+    "ISONAME": "South Sudan",
+    "ISO1NUM": 728,
+    "ISO1AL2": "SS",
+    "ISO1AL3": "SSD"
+  },
+  {
+    "ISONAME": "Yugoslavia, Socialist Federal Republic of",
+    "ISO1NUM": 890,
+    "ISO1AL2": "YU",
+    "ISO1AL3": "YUG"
+  }
+]
